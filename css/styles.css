@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header{
+    
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;           
+  padding: 15px 30px;             
+  background-color: #000000;
+  box-sizing: border-box;
+
+}
+
+.logo{
+    height: 50px
+}
+
+.buscador {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.buscador input {
+    padding: 8px 200px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.buscador button {
+    padding: 8px 2px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffbc0e;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.buscador button:hover {
+    background-color: #dc2626;
+    color: white;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+li{
+    margin: 0px;
+}
+
+a{
+    color: white;
+    text-decoration: none
+
+}
+
+main{
+    background-color: orange;
+     min-height: 50vh;
+     
+}
+
+h1{
+    text-align: center;
+    color: #FF0000;
+    font-size: 40px;
+}
+
+p{
+   text-align: center;
+    color: #0000FF;
+    font-size: 18px;
+
+}
+
+main img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 50px;
+
+}
+
+footer {
+    background-color: #FFE4C4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    padding: 15px 30px;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+footer section {
+    margin: 0;
+    text-align: left;
+}
+
+footer h2, 
+footer h3 {
+    font-size: 16px;
+    margin: 0 0 4px 0;
+    color: #000;
+}
+
+footer p {
+    color: #000;
+    font-size: 13px;
+    margin: 0;
+    text-align: left;
+}
+
+footer a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/*pagina de consultas*/
+table {
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+caption {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #0F172A;
+}
+
+th {
+    background-color: #0F172A;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #f1f5f9;
+}
